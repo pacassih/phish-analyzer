@@ -1,0 +1,44 @@
+From: PayPal Support <support@paypa1-secure.com>
+To: victim@example.com
+Reply-To: support-desk@paypa1-secure.net
+Return-Path: <bounce@paypa1-secure.net>
+Received: from unknown (HELO shady-relay.ru) (185.220.101.4)
+	by mx.example.com with SMTP id xyz789
+	for <victim@example.com>; Mon, 29 Sep 2026 11:02:00 -0500
+Authentication-Results: mx.example.com;
+	spf=fail smtp.mailfrom=paypa1-secure.net;
+	dkim=fail header.d=paypa1-secure.com;
+	dmarc=fail header.from=paypa1-secure.com
+Subject: URGENT: Your account will be suspended within 24 hours
+Date: Mon, 29 Sep 2026 11:02:00 -0500
+Message-ID: <alert-99182@paypa1-secure.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="BOUNDARY42"
+
+--BOUNDARY42
+Content-Type: text/plain; charset="utf-8"
+
+Dear customer,
+
+We detected unusual activity on your account. Your account will be
+suspended within 24 hours unless you verify immediately:
+
+http://bit.ly/3xPaypa1Verify
+
+Act now. Failure to verify will result in permanent account closure.
+
+PayPal Security Team
+
+--BOUNDARY42
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear customer,</p>
+<p>We detected unusual activity on your account. <b>Act now</b> - your
+account will be <b>suspended</b> within <b>24 hours</b> unless you verify
+<b>immediately</b>:</p>
+<p><a href="http://bit.ly/3xPaypa1Verify">https://www.paypal.com/verify</a></p>
+<p>PayPal Security Team</p>
+</body></html>
+
+--BOUNDARY42--

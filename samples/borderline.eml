@@ -1,0 +1,28 @@
+From: Microsoft Account Security <security@micorsoft-verify.com>
+To: user@example.com
+Reply-To: security@micorsoft-verify.com
+Return-Path: <security@micorsoft-verify.com>
+Received: from mta.micorsoft-verify.com (mta.micorsoft-verify.com [192.0.2.44])
+	by mx.example.com with ESMTPS id qrs456
+	for <user@example.com>; Mon, 29 Sep 2026 14:40:00 -0500
+Authentication-Results: mx.example.com;
+	spf=softfail smtp.mailfrom=micorsoft-verify.com;
+	dkim=none;
+	dmarc=none
+Subject: New sign-in detected - please review
+Date: Mon, 29 Sep 2026 14:40:00 -0500
+Message-ID: <signin-55121@micorsoft-verify.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hello,
+
+We noticed a sign-in to your account from a new device in another
+location. If this was you, no action is needed.
+
+If you do not recognize this activity, please secure your account
+immediately:
+
+https://micorsoft-verify.com/secure?id=99182
+
+Microsoft Account Security

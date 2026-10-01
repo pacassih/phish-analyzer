@@ -1,0 +1,25 @@
+From: IT Helpdesk <it-helpdesk@company.example>
+To: jdoe@company.example
+Reply-To: it-helpdesk@company.example
+Return-Path: <it-helpdesk@company.example>
+Received: from mail.company.example (mail.company.example [10.0.0.5])
+	by mx.company.example with ESMTPS id abc123
+	for <jdoe@company.example>; Mon, 29 Sep 2026 09:15:00 -0500
+Authentication-Results: mx.company.example;
+	spf=pass smtp.mailfrom=company.example;
+	dkim=pass header.d=company.example;
+	dmarc=pass header.from=company.example
+Subject: Scheduled maintenance this Saturday
+Date: Mon, 29 Sep 2026 09:15:00 -0500
+Message-ID: <maint-20260929@company.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi,
+
+Quick heads-up: we are patching the file server this Saturday from
+2:00 AM to 4:00 AM Central. Please save your work Friday evening so
+nothing is lost during the reboot.
+
+Thanks,
+IT Helpdesk
